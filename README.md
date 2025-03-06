@@ -377,7 +377,7 @@ const sendMsg = await sock.sendMessage(id, buttonMessage)
 
 //send a template message!
 const templateButtons = [
-    {index: 1, urlButton: {displayText: '⭐ Star Baileys on GitHub!', url: 'https://github.com/Manuel/Baileys'}},
+    {index: 1, urlButton: {displayText: '⭐ Star Baileys on GitHub!', url: 'https://github.com/Manuel9090m/Baileys'}},
     {index: 2, callButton: {displayText: 'Call me!', phoneNumber: '+1 (234) 5678-901'}},
     {index: 3, quickReplyButton: {displayText: 'This is a reply, just like normal buttons!', id: 'id-like-buttons-message'}},
 ]
@@ -436,7 +436,7 @@ const sendMsg = await sock.sendMessage(id, reactionMessage)
 4. Send a link:
 ``` ts
 // send a link
-const sentMsg  = await sock.sendMessage(id, { text: 'Hi, this was sent using https://github.com/darkkey/baileys' })
+const sentMsg  = await sock.sendMessage(id, { text: 'Hi, this was sent using https://github.com/Manuel9090m/baileys' })
 ```
 
 ### Media Messages
@@ -492,7 +492,7 @@ const sendMsg = await sock.sendMessage(id, buttonMessage)
 
 //send a template message with an image **attached**!
 const templateButtons = [
-  {index: 1, urlButton: {displayText: '⭐ Star Baileys on GitHub!', url: 'https://github.com/braylerdarkvip/baileys'}},
+  {index: 1, urlButton: {displayText: '⭐ Star Baileys on GitHub!', url: 'https://github.com/Manuel9090m/baileys'}},
   {index: 2, callButton: {displayText: 'Call me!', phoneNumber: '+1 (234) 5678-901'}},
   {index: 3, quickReplyButton: {displayText: 'This is a reply, just like normal buttons!', id: 'id-like-buttons-message'}},
 ]
